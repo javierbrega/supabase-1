@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de Carreras</title>
+    <link rel="stylesheet" href="/public/styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Búsqueda de Carreras</h1>
+        <form id="searchForm">
+            <div class="form-group">
+                <label for="inputCarrera">Carrera:</label>
+                <input type="text" id="inputCarrera" name="carrera" placeholder="Ingrese la carrera">
+                <ul id="sugerenciasCarrera"></ul>
+            </div>
+            <div class="form-group">
+                <label for="inputUniversidad">Universidad:</label>
+                <input type="text" id="inputUniversidad" name="universidad" placeholder="Ingrese la universidad">
+                <ul id="sugerenciasUniversidad"></ul>
+            </div>
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+
+    <script src="/public/script.js"></script>
+</body>
+</html>
